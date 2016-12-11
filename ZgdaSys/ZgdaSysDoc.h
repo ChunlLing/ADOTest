@@ -1,0 +1,57 @@
+// ZgdaSysDoc.h : interface of the CZgdaSysDoc class
+//
+/////////////////////////////////////////////////////////////////////////////
+
+#if !defined(AFX_ZGDASYSDOC_H__A5599A30_C8F2_40E8_80C0_5D32AE5BB798__INCLUDED_)
+#define AFX_ZGDASYSDOC_H__A5599A30_C8F2_40E8_80C0_5D32AE5BB798__INCLUDED_
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+
+
+class CZgdaSysDoc : public CDocument
+{
+protected: // create from serialization only
+	CZgdaSysDoc();
+	DECLARE_DYNCREATE(CZgdaSysDoc)
+
+// Attributes
+public:
+
+// Operations
+public:
+
+// Overrides
+	// ClassWizard generated virtual function overrides
+	//{{AFX_VIRTUAL(CZgdaSysDoc)
+	public:
+	virtual BOOL OnNewDocument();
+	virtual void Serialize(CArchive& ar);
+	//}}AFX_VIRTUAL
+
+// Implementation
+public:
+	virtual ~CZgdaSysDoc();
+#ifdef _DEBUG
+	virtual void AssertValid() const;
+	virtual void Dump(CDumpContext& dc) const;
+#endif
+
+protected:
+
+// Generated message map functions
+protected:
+	//{{AFX_MSG(CZgdaSysDoc)
+		// NOTE - the ClassWizard will add and remove member functions here.
+		//    DO NOT EDIT what you see in these blocks of generated code !
+	//}}AFX_MSG
+	DECLARE_MESSAGE_MAP()
+};
+
+/////////////////////////////////////////////////////////////////////////////
+
+//{{AFX_INSERT_LOCATION}}
+// Microsoft Visual C++ will insert additional declarations immediately before the previous line.
+
+#endif // !defined(AFX_ZGDASYSDOC_H__A5599A30_C8F2_40E8_80C0_5D32AE5BB798__INCLUDED_)

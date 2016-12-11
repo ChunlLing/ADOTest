@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ZgdaSys - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPD591.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ZgdaSys.pdb" /debug /machine:I386 /out:"Debug/ZgdaSys.exe" /pdbtype:sept 
+".\Debug\_recordset.obj"
+".\Debug\adodc.obj"
+".\Debug\ChangePasswordDlg.obj"
+".\Debug\column.obj"
+".\Debug\columns.obj"
+".\Debug\datagrid.obj"
+".\Debug\field.obj"
+".\Debug\fields.obj"
+".\Debug\font.obj"
+".\Debug\LoginDlg.obj"
+".\Debug\MainFrm.obj"
+".\Debug\properties.obj"
+".\Debug\property.obj"
+".\Debug\StdAfx.obj"
+".\Debug\UserDlg.obj"
+".\Debug\UsersDlg.obj"
+".\Debug\ZgdaDlg.obj"
+".\Debug\ZgdaSys.obj"
+".\Debug\ZgdaSysDoc.obj"
+".\Debug\ZgdaSysView.obj"
+".\Debug\ZggzDlg.obj"
+".\Debug\ZggzQueryDlg.obj"
+".\Debug\ZgdaSys.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPD591.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+ZgdaSys.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
